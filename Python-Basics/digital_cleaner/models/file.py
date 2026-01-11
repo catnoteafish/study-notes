@@ -6,6 +6,4 @@ class FileItem:
         self.ext = ext
         self.target_folder = target_folder
 
-    def put_filename(self):
-        return os.path.join(self.basename, self.ext)
         
